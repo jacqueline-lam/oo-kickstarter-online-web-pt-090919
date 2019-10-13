@@ -12,7 +12,7 @@ class Backer
     @backed_projects << project
     
     # Adds the backer to the project's backers array
-    project. 
+    project.backers << self
   end
   
 end
