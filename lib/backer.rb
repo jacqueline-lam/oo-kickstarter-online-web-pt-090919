@@ -8,8 +8,11 @@ class Backer
   end
 
   def back_project(project) 
-    # accepts a Project as an arg and stores it in a backed_projects array
+    # Accepts a Project as an arg and stores it in a backed_projects array
     @backed_projects << project
+    
+    # Adds the backer to the project's backers array
+    Project 
   end
   
 end
