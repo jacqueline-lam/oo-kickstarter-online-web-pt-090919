@@ -5,7 +5,7 @@ class Project
   # instnace initialized with a @backers var set to empty array
   def initialize(title)
     @title = title
-    @backers = []
+    @backers = [] 
   end
 
   def add_backer(backer) #backer as an obj
